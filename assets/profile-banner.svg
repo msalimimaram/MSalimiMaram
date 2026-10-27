@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">MSalimiMaram — Software Developer</title>
+  <desc id="desc">A dark premium banner with violet and cyan gradients, geometric octagon motifs, and a focus on product engineering.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.58" stop-color="#14112C"/>
+      <stop offset="1" stop-color="#071B2B"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#6C3CE1" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#6C3CE1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9AA7C5" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="930" cy="150" r="280" fill="url(#halo)"/>
+  <g fill="none" stroke="url(#glow)" stroke-width="2">
+    <path d="M886 61 941 61 980 100 980 155 941 194 886 194 847 155 847 100Z" opacity=".9"/>
+    <path d="M934 111 970 111 995 136 995 172 970 197 934 197 909 172 909 136Z" opacity=".55"/>
+    <path d="M1015 45 1057 45 1087 75 1087 117 1057 147 1015 147 985 117 985 75Z" opacity=".48"/>
+    <path d="M1030 205 1080 205 1115 240 1115 290 1080 325 1030 325 995 290 995 240Z" opacity=".42"/>
+  </g>
+  <g fill="#00E5FF">
+    <circle cx="847" cy="100" r="4"/><circle cx="980" cy="155" r="4"/><circle cx="1057" cy="45" r="4"/><circle cx="1115" cy="240" r="4"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="76" y="103" fill="#AFA1FF" font-size="15" font-weight="700" letter-spacing="4">SOFTWARE • PRODUCT • SYSTEMS</text>
+    <text x="72" y="166" fill="#F8FAFC" font-size="48" font-weight="750" letter-spacing="-1.5">MSalimiMaram</text>
+    <rect x="76" y="190" width="74" height="4" rx="2" fill="url(#glow)"/>
+    <text x="76" y="229" fill="#D7DDF0" font-size="22" font-weight="500">Building thoughtful digital products.</text>
+    <text x="76" y="266" fill="#A8B3CB" font-size="16">Python · Django · Flutter · TypeScript · React</text>
+    <text x="76" y="322" fill="#7F8BA7" font-size="12" letter-spacing="2">ENGINEERING WITH CLARITY AND PURPOSE</text>
+  </g>
+</svg>
