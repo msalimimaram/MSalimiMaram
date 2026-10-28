@@ -1,89 +1,41 @@
-<!-- Profile README | portfolio for business and technology leaders -->
 <div align="center">
-  <img src="./assets/profile-banner.svg" alt="MSalimiMaram — Software, product and systems" width="100%" />
-
-  <h1>Mehdi Salimi Maram</h1>
-  <p><strong>Software Developer · Product Builder · Python / Django / Flutter</strong></p>
-  <p>Building practical digital products by connecting business workflows, backend systems, mobile experiences, and product thinking.</p>
+  <img src="./assets/profile-banner.svg" alt="Mehdi Salimi Maram" width="100%" />
+  <h1>Hi, I'm Mehdi</h1>
+  <p>Software developer working with Python, Django and Flutter.</p>
   <p>
-    <a href="https://gamva-preview.vercel.app/"><img src="https://img.shields.io/badge/Explore-GAMva%20Product%20Preview-6C3CE1?style=for-the-badge&logo=vercel&logoColor=white" alt="Explore GAMva product preview" /></a>
-    <a href="./PORTFOLIO.md"><img src="https://img.shields.io/badge/Read-Project%20Portfolio-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Read project portfolio" /></a>
-    <a href="https://github.com/msalimimaram?tab=repositories"><img src="https://img.shields.io/badge/View-Public%20Repositories-334155?style=for-the-badge&logo=github&logoColor=white" alt="View public repositories" /></a>
+    <a href="https://gamva-preview.vercel.app/">GAMva preview</a> ·
+    <a href="./PORTFOLIO.md">My projects</a> ·
+    <a href="https://github.com/msalimimaram?tab=repositories">Repositories</a>
   </p>
 </div>
 
 ---
 
-## Professional overview
+I like building software that solves a real problem, especially when there is a messy workflow that could be made easier to understand and manage.
 
-I work across the path from a real problem to a software solution: understanding the workflow, shaping the product experience, designing application structure, and documenting how the system is intended to work.
+Most of my GitHub work is around two projects:
 
-My current portfolio centers on two different problem spaces:
+### GAMva / OctoLife
+I'm working on the idea of a personal-growth app that brings goals, routines, challenges, learning and other parts of everyday life together. The public repo is the web preview; the Flutter app and Django backend live in separate private repositories.
 
-- **GAMva** — a personal-growth product concept bringing goals, routines, challenges, learning, wellbeing, and community into one coherent experience.
-- **Office KMC** — a Django-based insurance operations system concept for structured records, internal workflows, requests, claims, documents, and organizational access.
+- [Open the preview](https://gamva-preview.vercel.app/)
+- [Browse the public code](https://github.com/msalimimaram/gamva-preview)
 
-Together, these projects reflect my interest in software that is not just technically interesting, but connected to a recognizable user need and operational context.
+The preview shows the product direction. It shouldn't be taken as proof that every screen is connected to a working backend or ready for production.
 
-## Selected work
+### Office KMC
+This is a Django project focused on insurance-office workflows: records, policies, claims, requests, documents and related tasks. It has a Persian, right-to-left interface because that fits the people and workflows it is meant for.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://gamva-preview.vercel.app/">GAMva · OctoLife</a></h3>
-      <p><strong>Product strategy · UX direction · Web experience</strong></p>
-      <p>A mobile-first preview for a personal-growth platform organized around eight dimensions of life. The concept connects routines, goals, challenges, content, social participation, and future coaching experiences.</p>
-      <p><strong>Why it matters:</strong> demonstrates product framing across multiple connected journeys rather than a single isolated feature.</p>
-      <p><a href="https://github.com/msalimimaram/gamva-preview">Review the public source →</a></p>
-      <p><sub>Scope note: the public repository is a product/UI preview; it does not establish that every workflow is integrated or production-ready.</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/msalimimaram/office_kmc">Office KMC · Insurance Operations</a></h3>
-      <p><strong>Business workflows · Django · Persian RTL</strong></p>
-      <p>A web application project focused on insurance operations, including organizational records, policies, claims, requests, tasks, documents, imports, and audit-related workflows.</p>
-      <p><strong>Why it matters:</strong> represents a domain-specific operational system where permissions, traceability, data handling, and clear workflows matter.</p>
-      <p><a href="https://github.com/msalimimaram/office_kmc">Review the public repository →</a></p>
-      <p><sub>Scope note: its README identifies it as under development and not approved for real employee or insured-person data until release and security requirements are completed.</sub></p>
-    </td>
-  </tr>
-</table>
+- [Browse the repository](https://github.com/msalimimaram/office_kmc)
 
-## How I approach software
+It's still under development. For now, it should only be evaluated with test data, not real employee or insured-person information.
 
-- **Start with the problem:** clarify users, workflow, constraints, and the intended outcome before treating implementation as the goal.
-- **Design for maintainability:** favor understandable boundaries, explicit interfaces, and documentation that helps the next person work effectively.
-- **Respect operational realities:** permissions, validation, error states, privacy, testing, and deployment are part of the product—not afterthoughts.
-- **Keep status honest:** distinguish a concept, a working implementation, a tested workflow, and a production-ready release.
-- **Build iteratively:** make scope and trade-offs visible so stakeholders can evaluate progress and make informed decisions.
+### Tools I use
+- **Backend:** Python, Django
+- **Mobile:** Flutter, Dart
+- **Web:** React, TypeScript, Vite, Tailwind CSS
+- **Day-to-day:** Git, testing, debugging, documentation and integration work
 
-## Technical toolkit
+I care about making code understandable, figuring out why something isn't working, and being clear about what is finished and what still needs work. I'm still building and improving these projects, so useful feedback is welcome.
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,flutter,dart,ts,react,vite,tailwind,git,github,postgres,linux&perline=6" alt="Python, Django, Flutter, Dart, TypeScript, React, Vite, Tailwind CSS, Git, GitHub, PostgreSQL and Linux" />
-</div>
-
-| Area | Current tools and interests |
-|---|---|
-| Backend and APIs | Python, Django, REST API design |
-| Mobile | Flutter, Dart |
-| Web experiences | React, TypeScript, Vite, Tailwind CSS |
-| Data and delivery | Relational data modeling, Git, testing, documentation, integration |
-| Product engineering | Workflow design, UX thinking, maintainable architecture, release discipline |
-
-## GAMva / OctoLife product direction
-
-OctoLife frames personal progress across eight connected dimensions:
-
-**Health · Learning · Financial wellbeing · Personal development · Career · Mental & emotional wellbeing · Challenge & entertainment · Overcoming fears**
-
-The product principle is to support sustainable progress without shame-based mechanics or punitive loss of history. This is the intended product direction; the public preview should be evaluated as a preview, not as proof of completed production functionality.
-
-## Collaboration
-
-I welcome thoughtful collaboration, concrete technical feedback, and conversations about turning operational or user problems into useful software. The public repositories are the best starting point for reviewing the work and opening a focused discussion.
-
-For a concise project-by-project overview, see **[Project Portfolio](./PORTFOLIO.md)**.
-
-<div align="center">
-  <sub>Practical software. Clear product thinking. Honest engineering.</sub>
-</div>
+For a little more detail on each project, see [My project notes](./PORTFOLIO.md).
