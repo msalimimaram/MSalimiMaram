@@ -1,107 +1,36 @@
-# Project Portfolio
+# Projects I'm working on
 
-A concise review of selected software projects, their problem spaces, intended value, technical direction, and current limitations.
+These are the two projects I currently share publicly. Both are works in progress, and I've noted what each one is meant to do and where it stands.
 
-> **How to read this portfolio:** descriptions of goals and intended value are not claims of measured business impact. Project maturity is stated explicitly where known. No customer outcomes, revenue figures, adoption metrics, or production-readiness claims are asserted without evidence.
+## GAMva / OctoLife
 
-## 1. GAMva — OctoLife personal-growth platform
+- **Preview:** https://gamva-preview.vercel.app/
+- **Public repository:** https://github.com/msalimimaram/gamva-preview
+- **Other code:** The Django backend and Flutter app are in private repositories.
 
-**Public preview:** https://gamva-preview.vercel.app/  
-**Public source:** https://github.com/msalimimaram/gamva-preview  
-**Related application repositories:** Django backend and Flutter mobile client are private.
+GAMva is an idea I've been developing for a personal-growth app. Instead of treating fitness, learning, goals, routines and challenges as completely separate things, I want to bring them into one place. The product concept uses eight areas of life as its starting point.
 
-### Problem space
+The public repository is the React and TypeScript web preview. The mobile app is being built with Flutter, and the backend uses Django. Keeping these parts in separate repositories makes it possible to work on each part independently, but integration still needs to be checked rather than assumed.
 
-Personal-development activities are often split across disconnected tools: habit tracking, goals, learning, challenges, wellbeing, and community. GAMva explores a more connected experience that helps users work across these areas without reducing progress to a public ranking.
+**Where it stands:** the public site is a preview of the experience and design direction. It does not mean every screen is connected to live services or that the whole product is production-ready.
 
-### Product direction
+## Office KMC
 
-The concept is organized around eight dimensions: Health, Learning, Financial wellbeing, Personal development, Career, Mental and emotional wellbeing, Challenge and entertainment, and Overcoming fears.
+- **Repository:** https://github.com/msalimimaram/office_kmc
 
-The wider product direction includes an OctoLife overview, goals and routines, challenges, progress reporting, social connections, content, profile controls, and a future coach/commerce ecosystem.
+Office KMC is a Django application for insurance-office work. The project covers areas such as organizational records, insurance policies, claims, requests, tasks, documents and bulk data imports. The interface is in Persian and uses right-to-left layout.
 
-### Technical direction
+The goal is to keep related information and everyday processes in one system, with appropriate access controls and records that can be followed up later.
 
-- Public web preview: React, TypeScript, Vite, Tailwind CSS.
-- Mobile client: Flutter and Dart (private repository).
-- Backend: Django/Python (private repository).
-- Product focus: mobile-first experience, coherent journeys, clear user control, and sustainable engagement.
+**Where it stands:** the project is still under development. The repository includes setup and security notes, and it should only be tested with synthetic data until the remaining access-control, file-handling, deployment and security work has been reviewed.
 
-### Intended business and user value
+## What I work with
 
-- Give users one coherent entry point for multiple personal-growth activities.
-- Make progress and next actions easier to understand.
-- Encourage consistency without punitive resets or shame-based motivation.
-- Create a product foundation that can evolve across web preview, mobile, and backend services.
+- Python and Django for backend and web applications
+- Flutter and Dart for mobile apps
+- React, TypeScript, Vite and Tailwind CSS for web interfaces
+- Git, automated tests, debugging and technical documentation
 
-These are design goals, not measured outcomes.
+I usually think about the workflow and the person using the software alongside the implementation. I also try to be straightforward about limitations: a planned feature, a screen in a preview, a tested workflow and a production release are not the same thing.
 
-### Current status and evidence
-
-The public repository is a **product/UI preview**. Its README explicitly warns that not every screen or workflow should be assumed to be connected to production services or production-ready. The backend and mobile source are private and cannot be independently reviewed from the public preview alone.
-
-**Review links:** [Live preview](https://gamva-preview.vercel.app/) · [Public repository](https://github.com/msalimimaram/gamva-preview)
-
----
-
-## 2. Office KMC — insurance operations system
-
-**Public source:** https://github.com/msalimimaram/office_kmc
-
-### Problem space
-
-Insurance operations involve related organizational records, policies, claims, requests, tasks, documents, imports, and correspondence. A workflow-oriented internal system can help structure these activities and make responsibilities and records easier to manage.
-
-### Functional scope described in the repository
-
-- Accounts, organizational structures, and people records.
-- Insurance providers, insurance lines, contracts, and amendments.
-- Claims registration and tracking.
-- Requests and status workflows.
-- Tasks, deadlines, documents, bulk Excel imports, and audit-related records.
-- A Persian, right-to-left interface.
-
-### Technical direction
-
-- Python and Django.
-- Django ORM and server-rendered templates.
-- SQLite for local development and PostgreSQL as the intended non-development database.
-- Role-oriented access patterns and supporting documentation for deployment, testing, and security review.
-
-### Intended business value
-
-- Structure recurring insurance-administration workflows.
-- Keep related records in one domain-specific application.
-- Support traceability and role-aware handling of operational data.
-- Provide a Persian/RTL interface aligned with the intended users.
-
-These are intended benefits; no quantified time savings, cost reductions, or adoption results are claimed.
-
-### Current status and operational caution
-
-The repository README identifies the system as **under development and suitable for controlled evaluation with synthetic data**. It explicitly says not to use real employee or insured-person data before required security and deployment work is complete. It also lists remaining release considerations, including permission testing, authentication hardening, file security, backups, deployment controls, and responsive testing.
-
-**Review link:** [Office KMC source repository](https://github.com/msalimimaram/office_kmc)
-
----
-
-## Working principles
-
-Across projects, I aim to:
-
-1. Understand the workflow and the people who depend on it.
-2. Make product scope, technical boundaries, and assumptions explicit.
-3. Prefer maintainable structures and useful documentation over unnecessary complexity.
-4. Treat authorization, privacy, error handling, and testing as product requirements.
-5. Report status honestly and separate implemented behavior from intended direction.
-
-## Technical areas
-
-- **Backend:** Python, Django, REST API design.
-- **Mobile:** Flutter, Dart.
-- **Web:** React, TypeScript, Vite, Tailwind CSS.
-- **Engineering practices:** architecture, integration, testing, documentation, version control, and release planning.
-
-## Collaboration
-
-For the fastest assessment, start with the linked public repositories and their READMEs. Focused feedback, code review, and conversations about practical software problems are welcome.
+Feedback on the code, project structure or product direction is welcome.
