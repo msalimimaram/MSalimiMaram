@@ -30,6 +30,11 @@ This is a Django project focused on insurance-office workflows: records, policie
 
 It's still under development. For now, it should only be evaluated with test data, not real employee or insured-person information.
 
+### A few recent changes
+- Added cache-backed throttling for repeated failed logins and worked on regression tests for that behavior in [Office KMC](https://github.com/msalimimaram/office_kmc/commit/7c77742ce388959e1550c264f5e7e39b01e168d0).
+- Expanded tests for invalid and misleading file uploads in [Office KMC](https://github.com/msalimimaram/office_kmc/commit/e6ae02d99f40d8a4b1109518800176f0ec3a47be).
+- Refined the OctoLife wheel and its visual details in the [GAMva preview](https://github.com/msalimimaram/gamva-preview/commit/35d165844ffab27d3933ec68bc56efc6bd305ba0).
+
 ### Tools I use
 - **Backend:** Python, Django
 - **Mobile:** Flutter, Dart
